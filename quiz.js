@@ -1,55 +1,55 @@
 // questions
 var questionlist=[
 {
-    q:"What does HTML stand for?",
-    answers:["Hypertext Markup Language", "Hyperlinks Text Mark language","Home Tool Markup Language","Hyper Transfer Markup Laungage"],
-    correct:"Hypertext Markup Language"
+    q:"What is the green spicy paste often served with sushi?",
+    answers:["Wasabi", "Matcha","Guacamole","Pesto"],
+    correct:"Wasabi"
 },
 {
-    q:"Which protocol is used for secure browsing?",
-    answers:["HTTP","HTTPS","SMTP","FTP"],
-    correct:"HTTPS"
+    q:"What type of food is ramen?",
+    answers:["Noodle Soup","Rice Ball","Pancake","Dessert"],
+    correct:"Noodle Soup"
 },
 {
-    q:"Which data structure works on LIFO concept?",
-    answers:["Queue","Array","Stack","Tree"],
+    q:"What is the dark seaweed sheet used to wrap sushi called?",
+    answers:["Kelp","Tofu","Miso","Nori"],
     correct:"Stack"
 },
 {
-    q:"Which programming language is used for styling web pages?",
-    answers:["C++","Python","CSS","HTML"],
-    correct:"CSS"
+    q:"What is a traditional japanese packed luch box called?",
+    answers:["Bento","Donburi","Nabe","Tempura"],
+    correct:"Bento"
 },
 {
-    q:"What is the standard port number for HTTP?",
-    answers:["80","443","21","404"],
-    correct:"80"
+    q:"What are Takoyaki balls filled with?",
+    answers:["Beef","Cheese","Octopus","Chicken"],
+    correct:"Octopus"
 },
 {
-    q:"Which variable type cannot be changed in javascript?",
-    answers:["int","var","let","const"],
-    correct:"const"
+    q:"What is Gyoza?",
+    answers:["Dumplings","Rice Crackers","Fish cakes","Sweet buns"],
+    correct:"Dumplings"
 },
 {
-    q:"What is Git?",
-    answers:["Github","Version Control system","Text editor","VScode plugin"],
-    correct:"Version Control system"
+    q:"What is the primary ingredient used to make tofu?",
+    answers:["Soybeans","Rice","Wheat","Potato"],
+    correct:"Soybeans"
 },
 {
-    q:"What is used to define the algorithm speed?",
-    answers:["Big O","Big Theta","Little O","Alpha"],
-    correct:"Big O"
+    q:"What is tempura?",
+    answers:["Battered and deep-fried food","Fermented Rice","Raw Sliced fish","Pickled Radish"],
+    correct:"Battered and deep-fried food"
 
 },
 {
-    q:"Which command removes an empty directory?",
-    answers:["rmdir","clean","delete","remove"],
-    correct:"rmdir"
+    q:"What is japanese green tea called?",
+    answers:["Sake","Chai","Matcha","Sencha"],
+    correct:"Matcha"
 },
 {
-    q:"Which is an SQL database?",
-    answers:["MongoDB","Python","MySQL","NumPy"],
-    correct:"MySQL"
+    q:"What is a triangular Japanese rice ball called?",
+    answers:["Onigiri","Mochi","Sashimi","Udon"],
+    correct:"Onigiri"
 }
 ];
 
