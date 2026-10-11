@@ -13,10 +13,10 @@ var questionlist=[
 {
     q:"What is the dark seaweed sheet used to wrap sushi called?",
     answers:["Kelp","Tofu","Miso","Nori"],
-    correct:"Stack"
+    correct:"Nori"
 },
 {
-    q:"What is a traditional japanese packed luch box called?",
+    q:"What is a traditional japanese packed lunch box called?",
     answers:["Bento","Donburi","Nabe","Tempura"],
     correct:"Bento"
 },
@@ -42,7 +42,7 @@ var questionlist=[
 
 },
 {
-    q:"What is japanese green tea called?",
+    q:"What is japanese powdered green tea called?",
     answers:["Sake","Chai","Matcha","Sencha"],
     correct:"Matcha"
 },
@@ -127,11 +127,14 @@ function checkans(selectedans){
 
 nextbtn.onclick=function(){
     currentQues=currentQues+1;
+    console.log("Moved to question:", currentQues);
     if(currentQues<questionlist.length){
         showquestion();
     } else {
+        console.log("Quiz complete saving score", currentscore);
         localStorage.setItem("userscore",currentscore);
         localStorage.setItem("totalquestions",questionlist.length);
+        console.log("saved to localstorage");
         window.location.href='results.html';
     }
 };
