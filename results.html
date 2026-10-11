@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-title">Quiz</div>
+        <div class="nav links">
+            <a href="index.html">Homepage</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="results.html" class="active">Results</a>
+        </div>
+    </div>
+    
+    <div class="box">
+        <h1>Quiz Over!!</h1>
+        <div class="big-score" id="score-number">0/10</div>
+
+        <div class="save-section" id="save-box">
+            <input type="text" id="player-name" placeholder="Enter name (5 letters max)" maxlength="5">
+            <button class="btn" id="save-btn" onclick="savescore()">Save score</button>
+        </div>
+
+        <div class="leaderboard-box">
+            <h3>High Scores</h3>
+            <ol id="highscores-list"></ol>
+        </div>
+
+        <br>
+        <a href="quiz.html"><button class="btn">Play Again</button></a>
+    </div>
+
+    <script src="results.js"></script>
+</body>
+</html>
