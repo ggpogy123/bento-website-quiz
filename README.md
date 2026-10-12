@@ -18,7 +18,7 @@ A beginner friendly 3 page interactive Japanese food quiz built for hack club ys
 - **Leaderboard**
 - **Immediate marked option validation**
 - **Mobile support**
-
+- **Light/Dark mode toggle**
 
 ---
 

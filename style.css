@@ -173,6 +173,92 @@ p{
     margin-bottom:5px;
 }
 
+.theme-btn{
+    background-color: transparent;
+    color:white;
+    border:1px solid #777;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size:14px;
+    cursor:pointer;
+    margin-left:15px;
+}
+
+.theme-btn:hover{
+    background-color: #444;
+}
+
+body.light-mode{
+    background-color: #f4f4f7;
+    color:#1e1e24;
+}
+
+body.light-mode .navbar{
+    background-color:#e5e5ea;
+    border-bottom: 2px solid #ccc;
+}
+
+body.light-mode .nav-links a{
+    color: #333;
+}
+
+body.light-mode .theme-btn{
+    color: #333;
+    border-color:#999;
+}
+
+body.light-mode .theme-btn:hover{
+    background-color: #d8d8de;
+}
+
+body.light-mode .box{
+    background-color: white;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.1);
+}
+
+body.light-mode p{
+    color:#555;
+}
+
+body.light-mode .choice-btn{
+    background-color: #efeff4;
+    color: #1e1e24;
+    border-color: #ccc;
+}
+
+body.light-mode .choice-btn:hover:not(:disabled){
+    background-color: #e2e2e8;
+}
+
+body.light-mode .choice-btn.wrong-btn{
+    background-color: #c62828;
+    border-color: #c62828;
+    color:white;
+}
+
+
+body.light-mode .choice-btn.correct-btn{
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    color:white;
+}
+
+body.light-mode #timer-text{
+    color: #d48800;
+
+}
+
+body.light-mode .save-section input{
+    background-color: white;
+    color: #1e1e24;
+    border-color: #bbb;
+}
+
+body.light-mode .leaderboard-box{
+    background-color: #f0f0f5;
+    color: #1e1e24;
+}
+
 @media (max-width:480px){
     .navbar{
         flex-direction:column;
@@ -182,6 +268,8 @@ p{
 
     .nav-links{
         display:flex;
+        flex-wrap: wrap;
+        align-items:center;
         justify-content: center;
         gap:15px;
     }
@@ -234,5 +322,10 @@ p{
         margin-top:0;
         width:100%;
         max-width:260px;
+    }
+    .theme-btn{
+        margin-left: 0;
+        font-size: 13px;
+        padding: 5px 10px;
     }
 }
