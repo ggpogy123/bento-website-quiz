@@ -16,7 +16,9 @@ A beginner friendly 3 page interactive Japanese food quiz built for hack club ys
 - **Timed questions**
 - **Score Persistance**
 - **Leaderboard**
-- **Immediate marked option validate**
+- **Immediate marked option validation**
+- **Mobile support**
+
 
 ---
 
